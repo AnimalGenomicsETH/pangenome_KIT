@@ -1,0 +1,23 @@
+graph: "/path/to/graph/6.subgraph.gfa"
+bedfile: "path/to/repeats/ARS_bubble_repeats.bed"
+
+settings:
+  j0:
+    - '-g'
+  j0_1:
+    - '-g -j 0.1'
+  j0_2:
+    - '-g -j 0.2'
+  j0_3:
+    - '-g -j 0.3'
+  j0_4:
+    - '-g -j 0.4'    
+  j0_5:
+    - '-g -j 0.5'
+  j0_6:
+    - '-g -j 0.6'
+  j0_7:
+    - '-g -j 0.7'
+  j1:
+    - '-g -j 1'
+  

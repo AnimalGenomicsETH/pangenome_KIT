@@ -1,0 +1,31 @@
+graphs:
+  KIT:
+    region: '6:69099582-71123136' # 1 Mb cis-window
+
+
+gggenes:
+  KIT_tight:
+    repeats: 'SIM_3.rm.bed'
+    region: '6:70094582-70128136'
+
+references:
+  ARS: 'ARS.fa'
+  BSW: 'BSW_7.hap2.fasta.gz'
+
+assemblies: 
+    HER:
+      - 'HER.fasta.gz'
+    asm1:
+      - 'asm1.hap1.fa
+      - 'asm1.hap2.fa'
+    asm2:
+      - 'asm2.hap1.fa'
+      - 'asm2.hap1.fa'
+    asm3:
+      - 'asm3.hap1.fa'
+      - 'asm3.hap2.fa'
+    asm4:
+      - 'asm4.hap1.fa'
+      - 'asm4.hap2.fa'
+    
+samples: 'sample_information.ARS.csv'

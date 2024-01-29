@@ -1,0 +1,39 @@
+filters:
+  - Unrevised
+
+reference: '/REF_DATA/ARS-UCD1.2_Btau5.0.1Y.fa'
+
+binding_paths:
+  - '/data'
+  - '/REF_DATA'
+  - '/config'
+  - '$TMPDIR'
+
+shards: 1
+regions:
+  KIT: '6:69099582-71123136' 
+
+model: 'WGS'
+
+GL_config:
+  Unrevised: '/config/GL_DV_raw.yml'
+
+containers:
+  DV: '/images/deepvariant_1.5.0.sif'
+  GLnexus: '/images/glnexus_v1.4.1.sif'
+
+resources:
+  make_examples:
+    mem_mb: 2500
+    walltime: '4h'
+  call_variants:
+    threads: 1
+    mem_mb: 5000
+    walltime: '4h'
+  postprocess:
+    mem_mb: 5000
+    walltime: '4h'
+  merge:
+    threads: 1
+    mem_mb: 5000
+    walltime: '4h'
