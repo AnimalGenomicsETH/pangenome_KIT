@@ -1,0 +1,27 @@
+graphs:
+  KIT:
+    region:
+      ARS: '6:69099582-71123136' # 1 Mb cis-window 
+
+gggenes:
+  ggKIT:
+    repeats: 'trio1.hap2.rm.bed'
+    region: 
+      ARS: '6:70094582-70128136'
+
+references:
+  ARS: 'reference.fa'
+
+local_bams: ''
+
+assemblies: 
+    ARS_UCD1.2:
+      - 'reference.fa'
+    trio_1:
+      - 'trio_1.hap1.fasta.gz'
+      - 'trio_1.hap1.fasta.gz'
+    haplotype_1:
+      - #empty
+      - 'haplotype_1.hap2.fasta.gz'
+
+samples: 'SRA_samples.csv'

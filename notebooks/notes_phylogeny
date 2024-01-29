@@ -1,0 +1,7 @@
+copied 6.ga.gz from graphs
+run 
+sbatch -n 1 --cpus-per-task=10 --time=4:00:00 --mem-per-cpu=2048 --wrap="bash mash_sketch.sh"
+
+sbatch -n 1 --cpus-per-task=10 --time=4:00:00 --mem-per-cpu=2048 --wrap="bash mash_dist.sh"
+
+then R script based on Danang's publication steps and code (small changes)
