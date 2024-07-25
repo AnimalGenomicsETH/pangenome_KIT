@@ -32,4 +32,4 @@ def translate_bed_to_graph(gfa,bed):
 if len(sys.argv) == 3:
     translate_bed_to_graph(*sys.argv[1:3])
 else:
-    print('python translate_bed_to_graph.py <gfa> <bed>\n !! Incorrect arguments !!\nPrints output to stdout'
+    print('python translate_bed_to_graph.py <gfa> <bed>\n !! Incorrect arguments !!\nPrints output to stdout')
